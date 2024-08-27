@@ -1,0 +1,129 @@
+body {
+    background-color: darkslategrey;
+
+}
+
+#inp {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(165, 208, 210);
+}
+
+.search {
+    width: 85px;
+    height: 35px;
+    background-color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#filter {
+    width: 40px;
+    height: 35px;
+    background-color: rgb(165, 208, 210);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#random {
+    width: 85px;
+    height: 35px;
+    background-color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#output {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 2%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+
+.card {
+    flex: 0 1 23%;
+    margin-bottom: 30px;
+    background-color: cadetblue;
+    border-radius: 8%;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8%;
+
+}
+
+.card h2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    margin: 30px 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(38, 48, 48);
+}
+
+.card button {
+    position: absolute;
+    bottom: 1%;
+    right: 40%;
+    border-radius: 10px;
+    background-color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cocktail {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    border-radius: 5%;
+}
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 22, 22);
+}
+
+.ingridients {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    font-size: 40px;
+    color: rgb(15, 22, 22);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.randomCocktail {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    border-radius: 5%;
+}
+
+.randomName {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 22, 22);
+}
+
+.randomIngridients {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(15, 22, 22);
+}
